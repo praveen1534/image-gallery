@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internship</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/f3d6148bca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="choosetheimg" id="choose">
+        <span onclick="closebutton()"><i class="fa-solid fa-xmark "></i></span>
+        <img src="./gallery photo/image1.avif" id="fullimg">
+  
+    </div>
+    <div class="text">
+        <h1>Task-1 IMAGE GALLERY</h1>
+    </div>
+    <div class="galleryimg">        
+        <img src="./gallery photo/image1.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image2.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image3.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image4.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image5.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image6.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image7.avif" onclick="openbutton(this.src)">
+        <img src="./gallery photo/image8.avif" onclick="openbutton(this.src)">
+    </div>
+    <script>
+        let choose =document.getElementById("choose");
+        let fullimg =document.getElementById("fullimg");
+
+
+        function openbutton(particularimg){
+            choose.style.display="flex";
+            fullimg.src=particularimg;
+        }
+        function closebutton(){
+            choose.style.display="none"
+        }
+    </script>
+    
+</body>
+</html>
