@@ -33,7 +33,7 @@ height: 30vh;
     transform: scale(1) rotate(-10deg);
 }
 .choosetheimg{
-    background-color:yellow;
+    background-color:black;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -70,7 +70,7 @@ height: 30vh;
 
     
 }
-@media only screen and (min-width:286px) and (max-width:500px) {
+@media only screen and (min-width:287px) and (max-width:500px) {
     .text{
         width: 100%;
     }
