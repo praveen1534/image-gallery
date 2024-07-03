@@ -39,8 +39,12 @@ height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: none;
     cursor: pointer;
+    z-index: 900;
 }
 .choosetheimg img{
     width: 40%;
