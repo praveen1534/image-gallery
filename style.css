@@ -78,7 +78,7 @@ height: 30vh;
         width: 100%;
     }
     .galleryimg{
-        width:100%;
+        width:90%;
         display: grid;
         grid-template-columns: auto;
         
